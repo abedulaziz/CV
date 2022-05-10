@@ -4,75 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
     <title>Abdul Aziz Kharaz's CV</title>
   </head>
   <body>
-    <div class="profile">
-      <img src="images/profile_img.png" alt="profile image" width="150px">
-      <p>My name is Abdul Aziz Kharraz, Junior Software Engineer specializing in front end development.<br>
-      Capable of developing multiple types of websites with the ability to face any problem and solve it.<br>
-      Studied and graduated from SE Factory. Working as a freelancer.<br>
-      For more informations visit my <a href="https://abdalaziz.netlify.app/">website</a>
-      </p>
+    <div class="cv">
+      <section class="profile_info">
+        <h1>Abdul Aziz<br><span>Kharraz</span></h1>
+        <img src="images/profile_img.jpg" alt="profile image">
+  
+        <div class="profile_det">
+          <div class="contact">
+            <h3>Contact</h3>
+            <p class="address">Address:<br>Rashid Karami Street, Beirut, Lebanon</p>
+            <p class="phone">Phone:<br>+000 000 000 00</p>
+            <p class="email">Email:<br><a href="mailto:abdulaziz.khrz@gmail.com?subject=Hi%20there" title="gmail" target="_blank">abdulaziz.khrz@gmail.com</a></p>
+            <p class="linkedIn">LinkedIn:<br><a href="https://www.linkedin.com/in/abdulaziz-khrz-566074226/">linkedIn.com/abdulaziz-khrz-566074226</a></p>
+          </div>
+  
+          <div class="languages">
+            <h3>Languages</h3>
+            <p>
+              Arabic - A1<br>
+              English - B2
+            </p>
+          </div>
+  
+          <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Football</li>
+              <li>Body Building</li>
+              <li>Design</li>
+              <li>Racing</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  
+      <section class="tech_info">
+        <div class="tech_det">
+          <div class="summary">
+            <h3>Summary</h3>
+            <p>My name is Abdul Aziz Kharraz, Junior Software Engineer specializing in front end development.<br>
+              Capable of developing multiple types of websites with the ability to face any problem and solve it.<br>
+              Studied and graduated from SE Factory. Working as a freelancer.<br>
+              For more informations visit my <a href="https://abdalaziz.netlify.app/">website</a>
+              </p>
+          </div>
+  
+          <div class="skills">
+            <h3>Skill Highlights</h3>
+            <ul class="soft_skills">
+              <li>Public speeking</li>
+              <li>Complex problem solver</li>
+              <li>Team communication</li>
+            </ul>
+            <ul class="tech_skills">
+              <li>Responsive design</li>
+              <li>Creative applications</li>
+              <li>UI & UX</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+  
+          <div class="experience">
+            <h3>Experience</h3>
+            Web Developer - 05/2019 to 10/2022
+            <ul>
+              <li>Cooperate with designers to create clean interfaces and simple, intuitive interactions and experiences.</li>
+              <li>Develop project concepts and maintain optimal workflow.</li>
+              <li>Work with senior developer to manage large, complex design projects for corporate clients.</li>
+              <li>Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code.</li>
+              <li>Carry out quality assurance tests to discover errors and optimaize usability.</li>
+            </ul>
+          </div>
+  
+          <div class="education">
+            <h3>Education</h3>
+            Software Engineering graduate: Computer Science and Full Stack Web Development - 2022
+          </div>
+  
+        </div>
+      </section>
     </div>
-    
-      <hr>
-
-      <h3>Hobbies:</h3>
-      <ul>
-        <li>Body building and calisthenics</li>
-        <li>Football</li>
-        <li>Swimming</li>
-        <li>Problem Solving</li>
-      </ul>
-
-      <hr>
-
-      <h3>Educational Background:</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Level of education</th>
-            <th>Number respondent</th>
-            <th>Percentage (%)</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>PRIMARY SCHOOL</td>
-            <td>34</td>
-            <td>14</td>
-          </tr>
-          <tr>
-            <td>SECONDARY SCHOOL</td>
-            <td>23</td>
-            <td>25</td>
-          </tr>
-          <tr>
-            <td>HIGH SCHOOL</td>
-            <td>56</td>
-            <td>32</td>
-          </tr>
-          <tr>
-            <td>INFORMAL EDUCATION</td>
-            <td>35</td>
-            <td>19</td>
-          </tr>
-          <tr>
-            <td>OTHERS</td>
-            <td>12</td>
-            <td>10</td>
-          </tr>
-        </tbody>
-        
-        <tfoot>
-          <tr>
-            <td>TOTAL</td>
-            <td>160</td>
-            <td>100</td>
-          </tr>
-        </tfoot>
-      </table>
   </body>
 </html>

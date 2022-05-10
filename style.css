@@ -1,4 +1,106 @@
-html {
+/* Design inspiration: https://www.coolfreecv.com/images/cv_templates_with_photo.jpg */
+
+:root {
+  --main-background-color: #b5b4b0;
+  --profile-background-color: #d0cecf;
+}
+
+* {
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Mukta', sans-serif;
+}
+
+body {
+  background-color: var(--main-background-color);
+}
+
+h1, h2, h3, h4, h5, h6, h7, p {
+  margin: 10px 0;
+  padding-bottom: 3px;
+  /* margin-bottom: 5px; */
+}
+
+h1, h3 {
+  font-weight: bold;
+}
+
+p {
+  margin: 12px 0;
+}
+
+a {
+  color:black;
+}
+
+hr {
+  color: #dbdbdb;
+}
+
+.cv {
+  display: flex;
+  position: relative;
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: 3px 3px 20px;
+}
+
+.profile_info {
+  padding: 40px 0;
+  width: 40%;
+  background-color: var(--profile-background-color);
+  color:black;
+}
+
+.profile_info .profile_det > div h3 {
+  border-bottom: 2px solid rgb(162, 162, 162);
+}
+
+.profile_info h1 {
+  margin: 0 20px;
+}
+
+.profile_info h1 span {
+  color: rgb(246, 119, 0)
+}
+
+.profile_info img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.profile_info .profile_det {
+  margin: 0 20px
+}
+
+
+.tech_info {
+  padding: 40px 0;
+  background-color: #FFF;
+}
+
+.tech_info .tech_det {
+  padding: 0 20px;
+}
+
+.tech_info .tech_det .skills {
+  overflow: hidden;
+}
+
+.tech_info .tech_det .skills > ul {
+  float: left;
+  width: 50%;
+  margin-top: 0;
+}
+
+
+.tech_info .tech_det > div h3 {
+  border-bottom: 2px solid rgb(162, 162, 162);
+  /* background-color: red; */
+}
+
+.clearfix {
+  clear: both;
+}
